@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script defer src="index.js"></script>
+
+    <style>
+        .button {
+            border: none;
+            outline: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        /* Green */
+        .button1 {
+            background-color: #4CAF50;
+        }
+        .button1:active {
+            background-color: rgb(14, 102, 17);
+        }
+
+        /* Blue */
+        .button2 {
+            background-color: #008CBA;
+        }
+        .button2:active {
+            background-color: rgb(14, 72, 92);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Ajax-Server-Demo</h1>
+    <button id="get" class="button button1">Get</button>
+    <button id="post" class="button button2">Post</button>
+
+    <h1 id="demo" style="margin-top: 10px;"></h1>
+</body>
+
+</html>
